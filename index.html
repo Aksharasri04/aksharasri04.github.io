@@ -1117,7 +1117,7 @@
     align-items: center;
     gap: 12px;
     padding: 11px 15px;
-    background: #fff;
+    background: #b8e8e7;
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.07);
     border: 2px solid transparent;
@@ -1137,9 +1137,9 @@
 }
 .edu-icon-box i { width: 19px; height: 19px; color: var(--color-primary); }
 .edu-details { flex: 1; }
-.edu-degree { font-size: 1.00rem; font-weight: 700; color: #1a1a1a; margin: 0 0 2px; line-height: 1.3; }
-.edu-uni { display: block; font-size: 0.95rem; font-weight: 600; color: var(--color-primary); margin-bottom: 2px; }
-.edu-year { display: inline-flex; align-items: center; gap: 2px; font-size: 0.90rem; color: #999; }
+.edu-degree { font-size: 1.45rem; font-weight: 700; color: #1a1a1a; margin: 0 0 2px; line-height: 1.3; }
+.edu-uni { display: block; font-size: 1.10rem; font-weight: 600; color: var(--color-primary); margin-bottom: 2px; }
+.edu-year { display: inline-flex; align-items: center; gap: 2px; font-size: 1.05rem; color: #999; }
 .edu-status { white-space: nowrap; padding: 5px 13px; border-radius: 18px;font-size: 0.85rem; font-weight: 700; }
 .edu-status.in-progress { background: var(--color-primary); color: #fff; }
 .edu-status.completed   { background: #28a745; color: #fff; }
@@ -1166,7 +1166,7 @@
     flex: 1;
 }
 .skill-card {
-    background: #e77676;
+    background: #d8c4ed;
     border-radius: 11px;
     padding: 12px 14px;
     border-left: 4px solid var(--color-primary);
@@ -1182,20 +1182,20 @@
     display: flex; align-items: center; justify-content: center;
 }
 .skill-ico i { width: 16px; height: 16px; color: var(--color-primary); }
-.skill-head h5 { font-size: 0.87rem; font-weight: 700; color: #fba3a3; margin: 0; }
+.skill-head h5 { font-size: 1.00rem; font-weight: 700; color: #080808; margin: 0; }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 /* ★ SMALLER TAGS — reduced from 0.76rem */
 .skill-tags span {
     padding: 3px 8px;
-    background: rgba(var(--color-primary-rgb), 0.09);
-    color: #ae79e0;
+    background: #f44e85;
+    color: #101111;
     border-radius: 14px;
-    font-size: 0.85rem;   /* << SMALLER TEXT */
+    font-size: 0.98rem;   /* << SMALLER TEXT */
     font-weight: 600;
     cursor: default;
     transition: all 0.2s;
 }
-.skill-tags span:hover { background: var(--color-primary); color: #fff; transform: translateY(-2px); }
+.skill-tags span:hover { background: #acc3ee; color: #100f0f; transform: translateY(-2px); }
 
 /* ==========================================================
    EXPERIENCE — 2×2 SQUARE GRID (like project cards)
@@ -1204,9 +1204,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+    align-items: start;
 }
 .exp-square-card {
-    background: #99b3f3;
+    background: #a7bcef;
     border-radius: 16px;
     padding: 20px 18px 18px;
     box-shadow: 0 3px 16px rgba(0,0,0,0.08);
@@ -1215,6 +1216,7 @@
     transition: all 0.28s ease;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     /* Equal height cards */
     min-height: 260px;
 }
@@ -1245,7 +1247,7 @@
     font-weight: 700;
 }
 .esq-role {
-    font-size: 2.00 rem;
+    font-size: 1.65 rem;
     font-weight: 700;
     color: #1a1a1a;
     margin: 0 0 3px;
