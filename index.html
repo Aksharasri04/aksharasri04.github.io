@@ -120,7 +120,7 @@
   }
   /* Kill extra space under intro description */
   .rn-slider-area .description {
-    margin-bottom: 0 !important;
+    margin-bottom: -40px !important;
     padding-bottom: 0 !important;
     line-height: 1.5; /* keep text readable */
   }
@@ -428,7 +428,7 @@
   .social-grid {
     list-style: none;
     padding: 0;
-    margin: 4px 0 0;
+    margin: 2px 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 14px;
@@ -1170,7 +1170,7 @@
     border-radius: 11px;
     padding: 12px 14px;
     border-left: 4px solid var(--color-primary);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 10px rgba(63, 121, 222, 0.06);
     transition: all 0.25s ease;
 }
 .skill-card:hover { transform: translateX(4px); box-shadow: 0 5px 18px rgba(0,0,0,0.1); }
@@ -1182,7 +1182,7 @@
     display: flex; align-items: center; justify-content: center;
 }
 .skill-ico i { width: 16px; height: 16px; color: var(--color-primary); }
-.skill-head h5 { font-size: 0.87rem; font-weight: 700; color: #1a1a1a; margin: 0; }
+.skill-head h5 { font-size: 0.87rem; font-weight: 700; color: #fba3a3; margin: 0; }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 /* ★ SMALLER TAGS — reduced from 0.76rem */
 .skill-tags span {
@@ -1190,7 +1190,7 @@
     background: rgba(var(--color-primary-rgb), 0.09);
     color: var(--color-primary);
     border-radius: 14px;
-    font-size: 0.68rem;   /* << SMALLER TEXT */
+    font-size: 0.85rem;   /* << SMALLER TEXT */
     font-weight: 600;
     cursor: default;
     transition: all 0.2s;
@@ -1241,18 +1241,18 @@
     color: #fff;
     padding: 3px 10px;
     border-radius: 10px;
-    font-size: 0.68rem;
+    font-size: 1.00rem;
     font-weight: 700;
 }
 .esq-role {
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 2.00 rem;
+    font-weight: 800;
     color: #1a1a1a;
     margin: 0 0 3px;
 }
 .esq-company {
     display: block;
-    font-size: 0.85rem;
+    font-size: 1.50 rem;
     font-weight: 600;
     color: var(--color-primary);
     margin-bottom: 8px;
@@ -1267,7 +1267,7 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    font-size: 0.75rem;
+    font-size: 1.00rem;
     color: #999;
 }
 .esq-divider {
@@ -1282,7 +1282,7 @@
     flex: 1;
 }
 .esq-bullets li {
-    font-size: 0.8rem;
+    font-size: 1.25rem;
     color: #555;
     line-height: 1.6;
     margin-bottom: 6px;
@@ -1321,7 +1321,7 @@
     border-radius: 0;
 }
 .contact-fullname {
-    font-size: 1.2rem;
+    font-size: 1.50rem;
     font-weight: 700;
     color: #1a1a1a;
     margin: 0 0 14px;
@@ -1360,7 +1360,7 @@
 .ci-icon i { width: 16px; height: 16px; color: var(--color-primary); }
 .ci-label {
     display: block;
-    font-size: 0.65rem;      /* small label */
+    font-size: 0.95rem;      /* small label */
     color: #bbb;
     text-transform: uppercase;
     letter-spacing: 0.4px;
@@ -1370,7 +1370,7 @@
 /* ★ BIGGER VALUE TEXT — increased to 0.97rem */
 .ci-value {
     display: block;
-    font-size: 0.97rem;
+    font-size: 1.00rem;
     font-weight: 600;
     color: #1a1a1a;
     text-decoration: none;
