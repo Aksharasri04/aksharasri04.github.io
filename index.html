@@ -871,6 +871,86 @@
     border-radius: 2rem;
     margin-top: 0.7rem;
   }
+
+  @media (max-width: 768px) {
+    nav {
+      padding: 0.9rem 1rem;
+    }
+
+    .nav-links {
+      width: 100%;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+    }
+
+    section {
+      padding: 4.5rem 1rem;
+    }
+
+    #hero {
+      min-height: auto;
+      padding: 5.5rem 1rem 3rem;
+    }
+
+    .hero-head {
+      display: block;
+    }
+
+    h1.hero-name {
+      font-size: clamp(2.1rem, 12vw, 3.4rem);
+      line-height: 1.02;
+    }
+
+    .hero-title-row {
+      margin: 1rem 0 1.2rem;
+    }
+
+    .hero-bio {
+      font-size: 0.94rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .hero-cta,
+    .hero-project-links {
+      gap: 0.7rem;
+    }
+
+    .btn-ghost,
+    .hero-project-link {
+      padding: 0.7rem 1rem;
+      font-size: 0.72rem;
+    }
+
+    .exp-grid,
+    .proj-grid,
+    .skills-outer,
+    .edu-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .exp-meta {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .exp-period {
+      text-align: left;
+    }
+
+    footer {
+      padding: 1rem;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  }
 </style>
 </head>
 <body>
